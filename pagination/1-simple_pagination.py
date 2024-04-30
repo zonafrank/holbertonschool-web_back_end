@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for Server class and index_range function"""
 
 import csv
 import math
