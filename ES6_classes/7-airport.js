@@ -1,4 +1,4 @@
-const util = require("util");
+const util = require('util');
 
 export default class Airport {
   constructor(name, code) {
@@ -19,6 +19,6 @@ export default class Airport {
   }
 
   toString() {
-    return `[${typeof(this)} ${this._code}]`;
+    return `[${typeof (this)} ${this._code}]`;
   }
 }
