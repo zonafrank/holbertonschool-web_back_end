@@ -28,11 +28,13 @@ export class StudentHolberton {
   }
 
   get holbertonClass() {
-    return this.holbertonClass;
+    return this._holbertonClass;
   }
 
   get fullStudentDescription() {
-    return `${this._firstName} ${this._lastName} - ${this._holbertonClass.year} - ${this._holbertonClass.location}`;
+    const year = this.holbertonClass.year;
+    const location = this.holbertonClass.location;
+    return `${this.fullName} - ${year} - ${location}`;
   }
 }
 
